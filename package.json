@@ -1,0 +1,18 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "Shop",
+  "main": "main.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikoletaa9/Shop.git"
+  },
+  "author": "Nikoleta",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

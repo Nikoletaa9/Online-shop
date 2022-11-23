@@ -1,0 +1,221 @@
+* {
+    font-family: "Acme", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(130, 130, 130), rgb(57, 56, 56));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.top {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.tittle {
+    display: flex;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    top: -100px;
+    margin-right: 60px;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.menuItem {
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left {
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 135, 169);
+}
+
+.right {
+    margin-left: 100px;
+}
+
+h5 {
+    text-align: left;
+    font-size: 30px;
+    color: rgb(0, 135, 169);
+    margin-left: 90px;
+}
+
+.button {
+    margin-left: 80px;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.container > .right > button:hover {
+    background-color: rgb(1, 108, 135);
+}
+
+p {
+    font-size: 17px;
+}
+
+.txt {
+    font-size: 20px;
+    text-align: right;
+    padding-top: 30px;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menuItem::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: rgb(0, 135, 169);
+    display: block;
+    transition: 0.5s;
+}
+
+.menuItem:hover::after {
+    width: 100%;
+}
+
+.form-container {
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .contact-form input,
+    .contact-form textarea {
+        background-color: rgb(154, 160, 160);
+        width: 100%;
+        border: none;
+        padding: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+
+.map {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.contact-form .send-button {
+    width: 100px;
+    cursor: pointer;
+}
+
+    .contact-form .send-button:hover {
+        background-color: rgb(1, 108, 135);
+    }
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+
+.info {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #333333;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+}
+
+img {
+    padding: 30px 10px 0px 10px;
+}
+
+h3 {
+    font-size: 25px;
+    padding-left: 18px;
+}
+
+h4 {
+    font-weight: 800;
+    padding-left: 18px;
+}
+
+button {
+    margin: 0px 20px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+}
+
+    button:hover {
+        background-color: rgb(1, 108, 135);
+    }
